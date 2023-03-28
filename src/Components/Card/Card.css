@@ -1,0 +1,25 @@
+.food-card{
+    height: 500px;
+    width: 250px;
+    background-color: antiquewhite;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.food-card img{
+    height: 250px;
+    width: 250px;
+}
+
+.card-info{
+    margin-left: 15px;
+}
+
+.btn-cart{
+    background-color: rgb(183, 17, 17);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}

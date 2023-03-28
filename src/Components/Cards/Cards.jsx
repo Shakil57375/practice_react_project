@@ -10,9 +10,9 @@ const Cards = () => {
     },[])
     return (
         <div className='cards-container'>
-            <div>
+            <div className='cards'>
                 {
-                    cards.map(card => <Card>{card}</Card>)
+                    cards.map(card => <Card card = {card} key = {card.idMeal}></Card>)
                 }
             </div>
             <div>
