@@ -1,9 +1,19 @@
 import React from 'react';
-
+import './Header.css'
+import logo from '../../images/download (2).jpg'
 const Header = () => {
     return (
         <div>
-            <h1>This is the header tag</h1>
+            <nav className='header-container'>
+                <img src={logo} alt="" />
+                <div className='nav-item'>
+                    <a href="/Home">Home</a>
+                    <a href="/About Us">About Us</a>
+                    <a href="/Services">Services</a>
+                    <a href="/Contract Us">Contract Us</a>
+                </div>
+            </nav>
+            
         </div>
     );
 };
